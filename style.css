@@ -75,3 +75,29 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.content p {
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+  /* padding-left: 25%;
+  padding-right: 25%; */
+}
+
+.button-container {
+  padding: 5px 5px;
+  text-decoration: none;
+}
+button {
+  background-color: transparent;
+  position: relative;
+  display: inline-block;
+  padding: 10px 25px;
+  border: 1.1px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
