@@ -100,4 +100,41 @@ button {
   font-size: 15px;
   letter-spacing: 3px;
   cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  border: 3.1px solid #fff;
+  padding: 12px 27px;
+
+  position: relative;
+}
+
+@media only screen and (max-width: 700px) {
+  .navbar {
+    width: 30%;
+    margin: auto;
+    padding: 20px 0;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    width: 80%;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(241, 241, 241);
+    text-transform: uppercase;
+    display: block;
+    align-items: center;
+  }
+  .content h1 {
+    font-size: 40px;
+    margin-top: 80px;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-bottom: 25px;
+    background: -webkit-linear-gradient(rgb(166, 175, 253), rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
